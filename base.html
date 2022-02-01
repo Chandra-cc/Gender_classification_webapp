@@ -1,0 +1,22 @@
+<html>
+
+    <body style="background-color:powderblue;">
+        <center>
+
+        <h1>Gender Identification</h1><br>
+
+            <h3> Insert the details about Yourself</h3><br>
+            <form method="POST", action="{{url_for('home')}}">
+           <b> Do you have long hair (Yes:1, No:0) :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            Enter the width of your forehead (cm) :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            Enter the height of your forehead (cm) :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+            Is your node wide (Yes:1, No:0) : <input type="text", name='d', placeholder="enter 4"> <br><br>
+               Is your node long (Yes:1, No:0) : <input type="text", name='e', placeholder="enter 5"> <br><br>
+               Is your lips thin (Yes:1, No:0) : <input type="text", name='f', placeholder="enter 6"> <br><br>
+               Distance from nose to lip is long or not (Yes:1, No:0) : <input type="text", name='g', placeholder="enter 7"> <br><br><br></b>
+            <input type="submit" , value='predict' >
+        </form>
+    </center>
+
+    </body>
+</html>
